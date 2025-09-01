@@ -12,7 +12,7 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
  
 // changes 
    // vocal bar is red
-   fill(200, 0, 0);
+   fill(200, 20, 20);
    rect(bar_pos_x, height / 2 + 1 * bar_spacing, 4 * vocal, bar_height);
    fill(0);
    text("vocals", bar_pos_x, height / 2 + 1 * bar_spacing + 8);
